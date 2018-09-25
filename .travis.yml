@@ -1,0 +1,9 @@
+language: python
+
+matrix:
+  include:
+  - os: osx
+    language: generic
+    env: TOXENV=py32
+
+script: ./run.sh
